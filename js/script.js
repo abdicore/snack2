@@ -29,14 +29,13 @@ let firstWord = prompt('Dimmi una prima parola')
 let secondWord = prompt('Dimmi una seconda parola')
 
 
-console.log(firstWord,secondWord)
 
-
-
-
-
-//2-stabilre la più corta e piu lunga
-//3- stampa prima la più  cortae poi lunga
+//3- stampare la piu lunga
+if (firstWord.length > secondWord.length){
+  console.log(secondWord)
+} else {
+  firstWord.length < secondWord.length
+} console.log(firstWord)
 
 
 
